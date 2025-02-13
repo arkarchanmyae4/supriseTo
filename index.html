@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <title>Envelope</title>
+  </head>
+  <body>
+    <div id="cover">
+      <div id="coverBox">
+        <p class="textBox"><i></i></p>
+        <div class="line1"></div>
+        <button class="openBtn" onclick="audioPlay()"><h1>Open</h1></button>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="header_text">Will You Be My Valetine?</h1>
+      <div class="gif_container">
+        <img
+          src="https://media.tenor.com/efbi1EpFlVUAAAAi/bugcat-capoo.gif"
+          alt="Cute Capoo GIF"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn yes-btn" id="yesButton" onclick="nextPage()">
+          <label for="yCheck">Yes</label>
+        </button>
+        <button class="btn no-btn" id="noButton" onclick="moveButton()">
+          No
+        </button>
+      </div>
+    </div>
+    <input type="checkbox" name="yCheck" id="yCheck" hidden />
+    <div class="containers">
+      <div>
+        <h1 class="header_texts">Let&rsquo;s go!</h1>
+      </div>
+      <div class="gif_containers">
+        <img
+          src="https://media.tenor.com/YTw87WdiaasAAAAi/tkthao219-capoo.gif"
+        />
+      </div>
+      <div>
+        <h1 class="header_texts">Happy Valetine Day CHubby!</h1>
+      </div>
+    </div>
+    <audio class="audio" src="backgroundMusic.mp3" controls hidden></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
