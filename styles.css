@@ -30,6 +30,14 @@ body {
   font-weight: 120px;
 }
 
+.texts {
+  font-size: 25px;
+  color: #ff6b81;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2);
+  font-weight: 80px;
+}
+
 .gif_container img {
   max-width: 100%;
   height: auto;
@@ -72,6 +80,11 @@ body {
 }
 
 #noButton:hover {
+  background-color: white;
+  color: #ff4757;
+}
+
+.nextBtn:hover {
   background-color: white;
   color: #ff4757;
 }
@@ -214,3 +227,8 @@ body {
 #yCheck:checked .containers {
   transition: all 1s ease-in;
 }
+
+/* .nextBtn {
+  position: absolute;
+  left: 80%;
+} */

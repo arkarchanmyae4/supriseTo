@@ -4,6 +4,7 @@ const audio = document.querySelector(".audio");
 var cover = document.getElementById("cover");
 var container = document.querySelector(".container");
 var containers = document.querySelector(".containers");
+// var lastCard = document.getElementById("lastCard");
 
 // Redirect to 'yes.html' when Yes button is clicked
 function nextPage() {
@@ -28,7 +29,7 @@ function moveButton() {
   noBtn.style.position = "absolute"; // Ensure the button moves within the container
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
-  yesBtn.style.padding += "15px 15px";
+  yesBtn.style.padding += "25px 25px";
   audio.play();
 }
 
@@ -36,3 +37,8 @@ function audioPlay() {
   audio.play();
   cover.style.visibility = "hidden";
 }
+
+// function nextBtn() {
+//   containers.style.visibility = "hidden";
+//   lastCard.style.visibility = "visible";
+// }
